@@ -18453,7 +18453,7 @@ function print() { __p += __j.call(arguments, '') }
         }, [e.player.status === "waitingForMore" ? (le(), he("p", {
             key: 0,
             class: Je(e.localClasses.status)
-        }, Nt(e.neededText), 3)) : qe("", !0), e.player.status === "canStart" ? (le(), he("button", {
+        }, Nt(e.neededText), 2)) : qe("", !0), e.player.status === "canStart" ? (le(), he("button", {
             key: 1,
             class: Je(e.localClasses.action),
             onClick: t[0] || (t[0] = (...u) => e.onStartClick && e.onStartClick(...u)),
@@ -18468,7 +18468,7 @@ function print() { __p += __j.call(arguments, '') }
         }, [e.player.status === "waitingForMore" ? (le(), he("p", {
             key: 0,
             class: Je(e.localClasses.status)
-        }, Nt(e.neededText), 3)) : qe("", !0), e.player.status === "canStart" ? it((le(), he("p", {
+        }, Nt(e.neededText), 2)) : qe("", !0), e.player.status === "canStart" ? it((le(), he("p", {
             key: 1,
             class: Je(e.localClasses.status)
         }, null, 2)), [
@@ -18483,7 +18483,7 @@ function print() { __p += __j.call(arguments, '') }
         }, [e.player.status === "waitingForMore" ? (le(), he("p", {
             key: 0,
             class: Je(e.localClasses.status)
-        }, Nt(e.neededText), 3)) : qe("", !0), e.player.status === "canStart" ? (le(), he("p", {
+        }, Nt(e.neededText), 2)) : qe("", !0), e.player.status === "canStart" ? (le(), he("p", {
             key: 1,
             class: Je(e.localClasses.status)
         }, Nt(e.waitingForVIPText), 3)) : qe("", !0), e.player.status === "countdown" ? it((le(), he("p", {
